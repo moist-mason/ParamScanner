@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+}
+
+group 'org.example'
+version '1.0'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    SRC_DIR = "D:\\Programs\\Projects\\gson\\gson\\src\\main\\java\\"
+    CSV = "$project.projectDir\\example\\params.csv"
+}
+
+dependencies {
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'com.fasterxml:classmate:1.5.1'
+    implementation 'com.thoughtworks.qdox:qdox:2.0.3'
+    implementation 'net.sf.jopt-simple:jopt-simple:5.0.4'
+}
+
+task testRun(type: JavaExec) {
+    mainClass = "com.ancientmc.mason.paramscanner.Main"
+    classpath = sourceSets.main.runtimeClasspath
+    args("--srcDir", SRC_DIR, "--csv", CSV)
+}
+
+jar {
+    classifier = 'base'
+    manifest {
+        attributes(
+                'Implementation-Title': project.name,
+                'Implementation-Version': version,
+                'Main-Class': 'com.ancientmc.mason.paramscanner.Main'
+        )
+    }
+}
+
+shadowJar {
+    dependsOn(':jar')
+    classifier = ''
+    manifest {
+        attributes(
+                'Implementation-Title': project.name,
+                'Implementation-Version': version,
+                'Main-Class': 'com.ancientmc.mason.paramscanner.Main'
+        )
+    }
+}

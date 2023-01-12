@@ -1,0 +1,541 @@
+param,method,method descriptor,class
+f,shouldSkipField,(FieldAttributes;) ret boolean,ExclusionStrategy
+clazz,shouldSkipClass,(java.lang.Class;) ret boolean,ExclusionStrategy
+f,<init>$1,(java.lang.reflect.Field;),FieldAttributes
+annotation,getAnnotation,(java.lang.Class;) ret T,FieldAttributes
+modifier,hasModifier,(int;) ret boolean,FieldAttributes
+name,separateCamelCase,(java.lang.String;char;) ret java.lang.String,FieldNamingPolicy
+separator,separateCamelCase,(java.lang.String;char;) ret java.lang.String,FieldNamingPolicy
+s,upperCaseFirstLetter,(java.lang.String;) ret java.lang.String,FieldNamingPolicy
+f,translateName,(java.lang.reflect.Field;) ret java.lang.String,FieldNamingStrategy
+excluder,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+fieldNamingStrategy,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+instanceCreators,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+serializeNulls,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+complexMapKeySerialization,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+generateNonExecutableGson,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+htmlSafe,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+prettyPrinting,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+lenient,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+serializeSpecialFloatingPointValues,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+useJdkUnsafe,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+longSerializationPolicy,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+datePattern,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+dateStyle,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+timeStyle,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+builderFactories,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+builderHierarchyFactories,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+factoriesToBeAdded,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+objectToNumberStrategy,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+numberToNumberStrategy,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+reflectionFilters,<init>$2,(com.google.gson.internal.Excluder;com.google.gson.FieldNamingStrategy;java.util.Map;boolean;boolean;boolean;boolean;boolean;boolean;boolean;boolean;LongSerializationPolicy;java.lang.String;int;int;java.util.List;java.util.List;java.util.List;ToNumberStrategy;ToNumberStrategy;java.util.List;),Gson
+serializeSpecialFloatingPointValues,doubleAdapter,(boolean;) ret TypeAdapter,Gson
+serializeSpecialFloatingPointValues,floatAdapter,(boolean;) ret TypeAdapter,Gson
+value,checkValidFloatingPoint,(double;) ret void,Gson
+longSerializationPolicy,longAdapter,(LongSerializationPolicy;) ret TypeAdapter,Gson
+longAdapter,atomicLongAdapter,(TypeAdapter;) ret TypeAdapter,Gson
+longAdapter,atomicLongArrayAdapter,(TypeAdapter;) ret TypeAdapter,Gson
+type,getAdapter,(com.google.gson.reflect.TypeToken;) ret TypeAdapter,Gson
+skipPast,getDelegateAdapter,(TypeAdapterFactory;com.google.gson.reflect.TypeToken;) ret TypeAdapter,Gson
+type,getDelegateAdapter,(TypeAdapterFactory;com.google.gson.reflect.TypeToken;) ret TypeAdapter,Gson
+type,getAdapter,(java.lang.Class;) ret TypeAdapter,Gson
+src,toJsonTree,(java.lang.Object;) ret JsonElement,Gson
+src,toJsonTree,(java.lang.Object;java.lang.reflect.Type;) ret JsonElement,Gson
+typeOfSrc,toJsonTree,(java.lang.Object;java.lang.reflect.Type;) ret JsonElement,Gson
+src,toJson,(java.lang.Object;) ret java.lang.String,Gson
+src,toJson,(java.lang.Object;java.lang.reflect.Type;) ret java.lang.String,Gson
+typeOfSrc,toJson,(java.lang.Object;java.lang.reflect.Type;) ret java.lang.String,Gson
+src,toJson,(java.lang.Object;java.lang.Appendable;) ret void,Gson
+writer,toJson,(java.lang.Object;java.lang.Appendable;) ret void,Gson
+src,toJson,(java.lang.Object;java.lang.reflect.Type;java.lang.Appendable;) ret void,Gson
+typeOfSrc,toJson,(java.lang.Object;java.lang.reflect.Type;java.lang.Appendable;) ret void,Gson
+writer,toJson,(java.lang.Object;java.lang.reflect.Type;java.lang.Appendable;) ret void,Gson
+src,toJson,(java.lang.Object;java.lang.reflect.Type;com.google.gson.stream.JsonWriter;) ret void,Gson
+typeOfSrc,toJson,(java.lang.Object;java.lang.reflect.Type;com.google.gson.stream.JsonWriter;) ret void,Gson
+writer,toJson,(java.lang.Object;java.lang.reflect.Type;com.google.gson.stream.JsonWriter;) ret void,Gson
+jsonElement,toJson,(JsonElement;) ret java.lang.String,Gson
+jsonElement,toJson,(JsonElement;java.lang.Appendable;) ret void,Gson
+writer,toJson,(JsonElement;java.lang.Appendable;) ret void,Gson
+writer,newJsonWriter,(java.io.Writer;) ret com.google.gson.stream.JsonWriter,Gson
+reader,newJsonReader,(java.io.Reader;) ret com.google.gson.stream.JsonReader,Gson
+jsonElement,toJson,(JsonElement;com.google.gson.stream.JsonWriter;) ret void,Gson
+writer,toJson,(JsonElement;com.google.gson.stream.JsonWriter;) ret void,Gson
+json,fromJson,(java.lang.String;java.lang.Class;) ret T,Gson
+classOfT,fromJson,(java.lang.String;java.lang.Class;) ret T,Gson
+json,fromJson,(java.lang.String;java.lang.reflect.Type;) ret T,Gson
+typeOfT,fromJson,(java.lang.String;java.lang.reflect.Type;) ret T,Gson
+json,fromJson,(java.lang.String;com.google.gson.reflect.TypeToken;) ret T,Gson
+typeOfT,fromJson,(java.lang.String;com.google.gson.reflect.TypeToken;) ret T,Gson
+json,fromJson,(java.io.Reader;java.lang.Class;) ret T,Gson
+classOfT,fromJson,(java.io.Reader;java.lang.Class;) ret T,Gson
+json,fromJson,(java.io.Reader;java.lang.reflect.Type;) ret T,Gson
+typeOfT,fromJson,(java.io.Reader;java.lang.reflect.Type;) ret T,Gson
+json,fromJson,(java.io.Reader;com.google.gson.reflect.TypeToken;) ret T,Gson
+typeOfT,fromJson,(java.io.Reader;com.google.gson.reflect.TypeToken;) ret T,Gson
+obj,assertFullConsumption,(java.lang.Object;com.google.gson.stream.JsonReader;) ret void,Gson
+reader,assertFullConsumption,(java.lang.Object;com.google.gson.stream.JsonReader;) ret void,Gson
+reader,fromJson,(com.google.gson.stream.JsonReader;java.lang.reflect.Type;) ret T,Gson
+typeOfT,fromJson,(com.google.gson.stream.JsonReader;java.lang.reflect.Type;) ret T,Gson
+reader,fromJson,(com.google.gson.stream.JsonReader;com.google.gson.reflect.TypeToken;) ret T,Gson
+typeOfT,fromJson,(com.google.gson.stream.JsonReader;com.google.gson.reflect.TypeToken;) ret T,Gson
+json,fromJson,(JsonElement;java.lang.Class;) ret T,Gson
+classOfT,fromJson,(JsonElement;java.lang.Class;) ret T,Gson
+json,fromJson,(JsonElement;java.lang.reflect.Type;) ret T,Gson
+typeOfT,fromJson,(JsonElement;java.lang.reflect.Type;) ret T,Gson
+json,fromJson,(JsonElement;com.google.gson.reflect.TypeToken;) ret T,Gson
+typeOfT,fromJson,(JsonElement;com.google.gson.reflect.TypeToken;) ret T,Gson
+gson,<init>$2,(com.google.gson.Gson;),GsonBuilder
+version,setVersion,(double;) ret com.google.gson.GsonBuilder,GsonBuilder
+modifiers,excludeFieldsWithModifiers,(int;) ret com.google.gson.GsonBuilder,GsonBuilder
+serializationPolicy,setLongSerializationPolicy,(LongSerializationPolicy;) ret com.google.gson.GsonBuilder,GsonBuilder
+namingConvention,setFieldNamingPolicy,(com.google.gson.FieldNamingPolicy;) ret com.google.gson.GsonBuilder,GsonBuilder
+fieldNamingStrategy,setFieldNamingStrategy,(com.google.gson.FieldNamingStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+objectToNumberStrategy,setObjectToNumberStrategy,(ToNumberStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+numberToNumberStrategy,setNumberToNumberStrategy,(ToNumberStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+strategies,setExclusionStrategies,(com.google.gson.ExclusionStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+strategy,addSerializationExclusionStrategy,(com.google.gson.ExclusionStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+strategy,addDeserializationExclusionStrategy,(com.google.gson.ExclusionStrategy;) ret com.google.gson.GsonBuilder,GsonBuilder
+pattern,setDateFormat,(java.lang.String;) ret com.google.gson.GsonBuilder,GsonBuilder
+style,setDateFormat,(int;) ret com.google.gson.GsonBuilder,GsonBuilder
+dateStyle,setDateFormat,(int;int;) ret com.google.gson.GsonBuilder,GsonBuilder
+timeStyle,setDateFormat,(int;int;) ret com.google.gson.GsonBuilder,GsonBuilder
+type,registerTypeAdapter,(java.lang.reflect.Type;java.lang.Object;) ret com.google.gson.GsonBuilder,GsonBuilder
+typeAdapter,registerTypeAdapter,(java.lang.reflect.Type;java.lang.Object;) ret com.google.gson.GsonBuilder,GsonBuilder
+factory,registerTypeAdapterFactory,(TypeAdapterFactory;) ret com.google.gson.GsonBuilder,GsonBuilder
+baseType,registerTypeHierarchyAdapter,(java.lang.Class;java.lang.Object;) ret com.google.gson.GsonBuilder,GsonBuilder
+typeAdapter,registerTypeHierarchyAdapter,(java.lang.Class;java.lang.Object;) ret com.google.gson.GsonBuilder,GsonBuilder
+filter,addReflectionAccessFilter,(ReflectionAccessFilter;) ret com.google.gson.GsonBuilder,GsonBuilder
+datePattern,addTypeAdaptersForDate,(java.lang.String;int;int;java.util.List;) ret void,GsonBuilder
+dateStyle,addTypeAdaptersForDate,(java.lang.String;int;int;java.util.List;) ret void,GsonBuilder
+timeStyle,addTypeAdaptersForDate,(java.lang.String;int;int;java.util.List;) ret void,GsonBuilder
+factories,addTypeAdaptersForDate,(java.lang.String;int;int;java.util.List;) ret void,GsonBuilder
+type,createInstance,(java.lang.reflect.Type;) ret T,InstanceCreator
+context,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.Class;),ArrayTypeAdapter
+componentTypeAdapter,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.Class;),ArrayTypeAdapter
+componentType,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.Class;),ArrayTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret java.lang.Object,ArrayTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.lang.Object;) ret void,ArrayTypeAdapter
+array,write,(com.google.gson.stream.JsonWriter;java.lang.Object;) ret void,ArrayTypeAdapter
+constructorConstructor,<init>$1,(com.google.gson.internal.ConstructorConstructor;),CollectionTypeAdapterFactory
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,CollectionTypeAdapterFactory
+typeToken,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,CollectionTypeAdapterFactory
+in,read,(com.google.gson.stream.JsonReader;) ret java.util.Date,DateTypeAdapter
+in,deserializeToDate,(com.google.gson.stream.JsonReader;) ret java.util.Date,DateTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.util.Date;) ret void,DateTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.util.Date;) ret void,DateTypeAdapter
+dateType,<init>$1,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;java.lang.String;),DefaultDateTypeAdapter
+datePattern,<init>$1,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;java.lang.String;),DefaultDateTypeAdapter
+dateType,<init>$2,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;int;),DefaultDateTypeAdapter
+style,<init>$2,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;int;),DefaultDateTypeAdapter
+dateType,<init>$3,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;int;int;),DefaultDateTypeAdapter
+dateStyle,<init>$3,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;int;int;),DefaultDateTypeAdapter
+timeStyle,<init>$3,(com.google.gson.internal.bind.DefaultDateTypeAdapter.DateType;int;int;),DefaultDateTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.util.Date;) ret void,DefaultDateTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.util.Date;) ret void,DefaultDateTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret T,DefaultDateTypeAdapter
+in,deserializeToDate,(com.google.gson.stream.JsonReader;) ret java.util.Date,DefaultDateTypeAdapter
+constructorConstructor,<init>$1,(com.google.gson.internal.ConstructorConstructor;),JsonAdapterAnnotationTypeAdapterFactory
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+targetType,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+constructorConstructor,getTypeAdapter,(com.google.gson.internal.ConstructorConstructor;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.annotations.JsonAdapter;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+gson,getTypeAdapter,(com.google.gson.internal.ConstructorConstructor;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.annotations.JsonAdapter;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+type,getTypeAdapter,(com.google.gson.internal.ConstructorConstructor;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.annotations.JsonAdapter;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+annotation,getTypeAdapter,(com.google.gson.internal.ConstructorConstructor;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.annotations.JsonAdapter;) ret com.google.gson.TypeAdapter,JsonAdapterAnnotationTypeAdapterFactory
+element,<init>$1,(com.google.gson.JsonElement;),JsonTreeReader
+expected,expect,(com.google.gson.stream.JsonToken;) ret void,JsonTreeReader
+skipName,nextName,(boolean;) ret java.lang.String,JsonTreeReader
+newTop,push,(java.lang.Object;) ret void,JsonTreeReader
+usePreviousPath,getPath,(boolean;) ret java.lang.String,JsonTreeReader
+value,put,(com.google.gson.JsonElement;) ret void,JsonTreeWriter
+name,name,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,jsonValue,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(boolean;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(java.lang.Boolean;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(float;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(double;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(long;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+value,value,(java.lang.Number;) ret com.google.gson.stream.JsonWriter,JsonTreeWriter
+constructorConstructor,<init>$1,(com.google.gson.internal.ConstructorConstructor;boolean;),MapTypeAdapterFactory
+complexMapKeySerialization,<init>$1,(com.google.gson.internal.ConstructorConstructor;boolean;),MapTypeAdapterFactory
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,MapTypeAdapterFactory
+typeToken,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,MapTypeAdapterFactory
+context,getKeyAdapter,(com.google.gson.Gson;java.lang.reflect.Type;) ret com.google.gson.TypeAdapter,MapTypeAdapterFactory
+keyType,getKeyAdapter,(com.google.gson.Gson;java.lang.reflect.Type;) ret com.google.gson.TypeAdapter,MapTypeAdapterFactory
+toNumberStrategy,<init>$1,(com.google.gson.ToNumberStrategy;),NumberTypeAdapter
+toNumberStrategy,newFactory,(com.google.gson.ToNumberStrategy;) ret com.google.gson.TypeAdapterFactory,NumberTypeAdapter
+toNumberStrategy,getFactory,(com.google.gson.ToNumberStrategy;) ret com.google.gson.TypeAdapterFactory,NumberTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret java.lang.Number,NumberTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.lang.Number;) ret void,NumberTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.lang.Number;) ret void,NumberTypeAdapter
+gson,<init>$1,(com.google.gson.Gson;com.google.gson.ToNumberStrategy;),ObjectTypeAdapter
+toNumberStrategy,<init>$1,(com.google.gson.Gson;com.google.gson.ToNumberStrategy;),ObjectTypeAdapter
+toNumberStrategy,newFactory,(com.google.gson.ToNumberStrategy;) ret com.google.gson.TypeAdapterFactory,ObjectTypeAdapter
+toNumberStrategy,getFactory,(com.google.gson.ToNumberStrategy;) ret com.google.gson.TypeAdapterFactory,ObjectTypeAdapter
+in,tryBeginNesting,(com.google.gson.stream.JsonReader;com.google.gson.stream.JsonToken;) ret java.lang.Object,ObjectTypeAdapter
+peeked,tryBeginNesting,(com.google.gson.stream.JsonReader;com.google.gson.stream.JsonToken;) ret java.lang.Object,ObjectTypeAdapter
+in,readTerminal,(com.google.gson.stream.JsonReader;com.google.gson.stream.JsonToken;) ret java.lang.Object,ObjectTypeAdapter
+peeked,readTerminal,(com.google.gson.stream.JsonReader;com.google.gson.stream.JsonToken;) ret java.lang.Object,ObjectTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret java.lang.Object,ObjectTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.lang.Object;) ret void,ObjectTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.lang.Object;) ret void,ObjectTypeAdapter
+constructorConstructor,<init>$1,(com.google.gson.internal.ConstructorConstructor;com.google.gson.FieldNamingStrategy;com.google.gson.internal.Excluder;com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;java.util.List;),ReflectiveTypeAdapterFactory
+fieldNamingPolicy,<init>$1,(com.google.gson.internal.ConstructorConstructor;com.google.gson.FieldNamingStrategy;com.google.gson.internal.Excluder;com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;java.util.List;),ReflectiveTypeAdapterFactory
+excluder,<init>$1,(com.google.gson.internal.ConstructorConstructor;com.google.gson.FieldNamingStrategy;com.google.gson.internal.Excluder;com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;java.util.List;),ReflectiveTypeAdapterFactory
+jsonAdapterFactory,<init>$1,(com.google.gson.internal.ConstructorConstructor;com.google.gson.FieldNamingStrategy;com.google.gson.internal.Excluder;com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;java.util.List;),ReflectiveTypeAdapterFactory
+reflectionFilters,<init>$1,(com.google.gson.internal.ConstructorConstructor;com.google.gson.FieldNamingStrategy;com.google.gson.internal.Excluder;com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;java.util.List;),ReflectiveTypeAdapterFactory
+f,includeField,(java.lang.reflect.Field;boolean;) ret boolean,ReflectiveTypeAdapterFactory
+serialize,includeField,(java.lang.reflect.Field;boolean;) ret boolean,ReflectiveTypeAdapterFactory
+f,getFieldNames,(java.lang.reflect.Field;) ret java.util.List,ReflectiveTypeAdapterFactory
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,ReflectiveTypeAdapterFactory
+type,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,ReflectiveTypeAdapterFactory
+object,checkAccessible,(java.lang.Object;M;) ret void,ReflectiveTypeAdapterFactory
+member,checkAccessible,(java.lang.Object;M;) ret void,ReflectiveTypeAdapterFactory
+context,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+field,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+accessor,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+name,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+fieldType,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+serialize,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+deserialize,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+blockInaccessible,createBoundField,(com.google.gson.Gson;java.lang.reflect.Field;java.lang.reflect.Method;java.lang.String;com.google.gson.reflect.TypeToken;boolean;boolean;boolean;) ret com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.BoundField,ReflectiveTypeAdapterFactory
+context,getBoundFields,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;java.lang.Class;boolean;boolean;) ret java.util.Map,ReflectiveTypeAdapterFactory
+type,getBoundFields,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;java.lang.Class;boolean;boolean;) ret java.util.Map,ReflectiveTypeAdapterFactory
+raw,getBoundFields,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;java.lang.Class;boolean;boolean;) ret java.util.Map,ReflectiveTypeAdapterFactory
+blockInaccessible,getBoundFields,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;java.lang.Class;boolean;boolean;) ret java.util.Map,ReflectiveTypeAdapterFactory
+isRecord,getBoundFields,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;java.lang.Class;boolean;boolean;) ret java.util.Map,ReflectiveTypeAdapterFactory
+serializer,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+deserializer,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+gson,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+typeToken,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+skipPast,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+nullSafe,<init>$1,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;boolean;),TreeTypeAdapter
+serializer,<init>$2,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;),TreeTypeAdapter
+deserializer,<init>$2,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;),TreeTypeAdapter
+gson,<init>$2,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;),TreeTypeAdapter
+typeToken,<init>$2,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;),TreeTypeAdapter
+skipPast,<init>$2,(com.google.gson.JsonSerializer;com.google.gson.JsonDeserializer;com.google.gson.Gson;com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapterFactory;),TreeTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret T,TreeTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;T;) ret void,TreeTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;T;) ret void,TreeTypeAdapter
+exactType,newFactory,(com.google.gson.reflect.TypeToken;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+typeAdapter,newFactory,(com.google.gson.reflect.TypeToken;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+exactType,newFactoryWithMatchRawType,(com.google.gson.reflect.TypeToken;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+typeAdapter,newFactoryWithMatchRawType,(com.google.gson.reflect.TypeToken;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+hierarchyType,newTypeHierarchyFactory,(java.lang.Class;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+typeAdapter,newTypeHierarchyFactory,(java.lang.Class;java.lang.Object;) ret com.google.gson.TypeAdapterFactory,TreeTypeAdapter
+context,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.reflect.Type;),TypeAdapterRuntimeTypeWrapper
+delegate,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.reflect.Type;),TypeAdapterRuntimeTypeWrapper
+type,<init>$1,(com.google.gson.Gson;com.google.gson.TypeAdapter;java.lang.reflect.Type;),TypeAdapterRuntimeTypeWrapper
+in,read,(com.google.gson.stream.JsonReader;) ret T,TypeAdapterRuntimeTypeWrapper
+out,write,(com.google.gson.stream.JsonWriter;T;) ret void,TypeAdapterRuntimeTypeWrapper
+value,write,(com.google.gson.stream.JsonWriter;T;) ret void,TypeAdapterRuntimeTypeWrapper
+typeAdapter,isReflective,(com.google.gson.TypeAdapter;) ret boolean,TypeAdapterRuntimeTypeWrapper
+type,getRuntimeTypeIfMoreSpecific,(java.lang.reflect.Type;java.lang.Object;) ret java.lang.reflect.Type,TypeAdapterRuntimeTypeWrapper
+value,getRuntimeTypeIfMoreSpecific,(java.lang.reflect.Type;java.lang.Object;) ret java.lang.reflect.Type,TypeAdapterRuntimeTypeWrapper
+type,newFactory,(com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+typeAdapter,newFactory,(com.google.gson.reflect.TypeToken;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+type,newFactory,(java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+typeAdapter,newFactory,(java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+unboxed,newFactory,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+boxed,newFactory,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+typeAdapter,newFactory,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+base,newFactoryForMultipleTypes,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+sub,newFactoryForMultipleTypes,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+typeAdapter,newFactoryForMultipleTypes,(java.lang.Class;java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+clazz,newTypeHierarchyFactory,(java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+typeAdapter,newTypeHierarchyFactory,(java.lang.Class;com.google.gson.TypeAdapter;) ret com.google.gson.TypeAdapterFactory,TypeAdapters
+date,format,(java.util.Date;) ret java.lang.String,ISO8601Utils
+date,format,(java.util.Date;boolean;) ret java.lang.String,ISO8601Utils
+millis,format,(java.util.Date;boolean;) ret java.lang.String,ISO8601Utils
+date,format,(java.util.Date;boolean;java.util.TimeZone;) ret java.lang.String,ISO8601Utils
+millis,format,(java.util.Date;boolean;java.util.TimeZone;) ret java.lang.String,ISO8601Utils
+tz,format,(java.util.Date;boolean;java.util.TimeZone;) ret java.lang.String,ISO8601Utils
+date,parse,(java.lang.String;java.text.ParsePosition;) ret java.util.Date,ISO8601Utils
+pos,parse,(java.lang.String;java.text.ParsePosition;) ret java.util.Date,ISO8601Utils
+value,checkOffset,(java.lang.String;int;char;) ret boolean,ISO8601Utils
+offset,checkOffset,(java.lang.String;int;char;) ret boolean,ISO8601Utils
+expected,checkOffset,(java.lang.String;int;char;) ret boolean,ISO8601Utils
+value,parseInt,(java.lang.String;int;int;) ret int,ISO8601Utils
+beginIndex,parseInt,(java.lang.String;int;int;) ret int,ISO8601Utils
+endIndex,parseInt,(java.lang.String;int;int;) ret int,ISO8601Utils
+buffer,padInt,(java.lang.StringBuilder;int;int;) ret void,ISO8601Utils
+value,padInt,(java.lang.StringBuilder;int;int;) ret void,ISO8601Utils
+length,padInt,(java.lang.StringBuilder;int;int;) ret void,ISO8601Utils
+string,indexOfNonDigit,(java.lang.String;int;) ret int,ISO8601Utils
+offset,indexOfNonDigit,(java.lang.String;int;) ret int,ISO8601Utils
+instanceCreators,<init>$1,(java.util.Map;boolean;java.util.List;),ConstructorConstructor
+useJdkUnsafe,<init>$1,(java.util.Map;boolean;java.util.List;),ConstructorConstructor
+reflectionFilters,<init>$1,(java.util.Map;boolean;java.util.List;),ConstructorConstructor
+c,checkInstantiable,(java.lang.Class;) ret java.lang.String,ConstructorConstructor
+typeToken,get,(com.google.gson.reflect.TypeToken;) ret ObjectConstructor,ConstructorConstructor
+type,newSpecialCollectionConstructor,(java.lang.reflect.Type;java.lang.Class;) ret ObjectConstructor,ConstructorConstructor
+rawType,newSpecialCollectionConstructor,(java.lang.reflect.Type;java.lang.Class;) ret ObjectConstructor,ConstructorConstructor
+rawType,newDefaultConstructor,(java.lang.Class;com.google.gson.ReflectionAccessFilter.FilterResult;) ret ObjectConstructor,ConstructorConstructor
+filterResult,newDefaultConstructor,(java.lang.Class;com.google.gson.ReflectionAccessFilter.FilterResult;) ret ObjectConstructor,ConstructorConstructor
+type,newDefaultImplementationConstructor,(java.lang.reflect.Type;java.lang.Class;) ret ObjectConstructor,ConstructorConstructor
+rawType,newDefaultImplementationConstructor,(java.lang.reflect.Type;java.lang.Class;) ret ObjectConstructor,ConstructorConstructor
+rawType,newUnsafeAllocator,(java.lang.Class;) ret ObjectConstructor,ConstructorConstructor
+ignoreVersionsAfter,withVersion,(double;) ret com.google.gson.internal.Excluder,Excluder
+modifiers,withModifiers,(int;) ret com.google.gson.internal.Excluder,Excluder
+exclusionStrategy,withExclusionStrategy,(com.google.gson.ExclusionStrategy;boolean;boolean;) ret com.google.gson.internal.Excluder,Excluder
+serialization,withExclusionStrategy,(com.google.gson.ExclusionStrategy;boolean;boolean;) ret com.google.gson.internal.Excluder,Excluder
+deserialization,withExclusionStrategy,(com.google.gson.ExclusionStrategy;boolean;boolean;) ret com.google.gson.internal.Excluder,Excluder
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,Excluder
+type,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,Excluder
+field,excludeField,(java.lang.reflect.Field;boolean;) ret boolean,Excluder
+serialize,excludeField,(java.lang.reflect.Field;boolean;) ret boolean,Excluder
+clazz,excludeClassChecks,(java.lang.Class;) ret boolean,Excluder
+clazz,excludeClass,(java.lang.Class;boolean;) ret boolean,Excluder
+serialize,excludeClass,(java.lang.Class;boolean;) ret boolean,Excluder
+clazz,excludeClassInStrategy,(java.lang.Class;boolean;) ret boolean,Excluder
+serialize,excludeClassInStrategy,(java.lang.Class;boolean;) ret boolean,Excluder
+clazz,isAnonymousOrNonStaticLocal,(java.lang.Class;) ret boolean,Excluder
+clazz,isInnerClass,(java.lang.Class;) ret boolean,Excluder
+clazz,isStatic,(java.lang.Class;) ret boolean,Excluder
+since,isValidVersion,(com.google.gson.annotations.Since;com.google.gson.annotations.Until;) ret boolean,Excluder
+until,isValidVersion,(com.google.gson.annotations.Since;com.google.gson.annotations.Until;) ret boolean,Excluder
+annotation,isValidSince,(com.google.gson.annotations.Since;) ret boolean,Excluder
+annotation,isValidUntil,(com.google.gson.annotations.Until;) ret boolean,Excluder
+javaVersion,getMajorJavaVersion,(java.lang.String;) ret int,JavaVersion
+javaVersion,parseDotted,(java.lang.String;) ret int,JavaVersion
+javaVersion,extractBeginningInt,(java.lang.String;) ret int,JavaVersion
+reader,promoteNameToValue,(com.google.gson.stream.JsonReader;) ret void,JsonReaderInternalAccess
+value,<init>$1,(java.lang.String;),LazilyParsedNumber
+in,readObject,(java.io.ObjectInputStream;) ret void,LazilyParsedNumber
+obj,equals,(java.lang.Object;) ret boolean,LazilyParsedNumber
+allowNullValues,<init>$2,(boolean;),LinkedTreeMap
+comparator,<init>$3,(java.util.Comparator;boolean;),LinkedTreeMap
+allowNullValues,<init>$3,(java.util.Comparator;boolean;),LinkedTreeMap
+key,get,(java.lang.Object;) ret V,LinkedTreeMap
+key,containsKey,(java.lang.Object;) ret boolean,LinkedTreeMap
+key,put,(K;V;) ret V,LinkedTreeMap
+value,put,(K;V;) ret V,LinkedTreeMap
+key,remove,(java.lang.Object;) ret V,LinkedTreeMap
+key,find,(K;boolean;) ret com.google.gson.internal.LinkedTreeMap.Node,LinkedTreeMap
+create,find,(K;boolean;) ret com.google.gson.internal.LinkedTreeMap.Node,LinkedTreeMap
+key,findByObject,(java.lang.Object;) ret com.google.gson.internal.LinkedTreeMap.Node,LinkedTreeMap
+entry,findByEntry,(Entry;) ret com.google.gson.internal.LinkedTreeMap.Node,LinkedTreeMap
+a,equal,(java.lang.Object;java.lang.Object;) ret boolean,LinkedTreeMap
+b,equal,(java.lang.Object;java.lang.Object;) ret boolean,LinkedTreeMap
+node,removeInternal,(com.google.gson.internal.LinkedTreeMap.Node;boolean;) ret void,LinkedTreeMap
+unlink,removeInternal,(com.google.gson.internal.LinkedTreeMap.Node;boolean;) ret void,LinkedTreeMap
+key,removeInternalByKey,(java.lang.Object;) ret com.google.gson.internal.LinkedTreeMap.Node,LinkedTreeMap
+node,replaceInParent,(com.google.gson.internal.LinkedTreeMap.Node;com.google.gson.internal.LinkedTreeMap.Node;) ret void,LinkedTreeMap
+replacement,replaceInParent,(com.google.gson.internal.LinkedTreeMap.Node;com.google.gson.internal.LinkedTreeMap.Node;) ret void,LinkedTreeMap
+unbalanced,rebalance,(com.google.gson.internal.LinkedTreeMap.Node;boolean;) ret void,LinkedTreeMap
+insert,rebalance,(com.google.gson.internal.LinkedTreeMap.Node;boolean;) ret void,LinkedTreeMap
+root,rotateLeft,(com.google.gson.internal.LinkedTreeMap.Node;) ret void,LinkedTreeMap
+root,rotateRight,(com.google.gson.internal.LinkedTreeMap.Node;) ret void,LinkedTreeMap
+in,readObject,(java.io.ObjectInputStream;) ret void,LinkedTreeMap
+delegate,<init>$1,(java.util.ArrayList;),NonNullElementWrapperList
+index,get,(int;) ret E,NonNullElementWrapperList
+element,nonNull,(E;) ret E,NonNullElementWrapperList
+index,set,(int;E;) ret E,NonNullElementWrapperList
+element,set,(int;E;) ret E,NonNullElementWrapperList
+index,add,(int;E;) ret void,NonNullElementWrapperList
+element,add,(int;E;) ret void,NonNullElementWrapperList
+index,remove,(int;) ret E,NonNullElementWrapperList
+o,remove,(java.lang.Object;) ret boolean,NonNullElementWrapperList
+c,removeAll,(java.util.Collection;) ret boolean,NonNullElementWrapperList
+c,retainAll,(java.util.Collection;) ret boolean,NonNullElementWrapperList
+o,contains,(java.lang.Object;) ret boolean,NonNullElementWrapperList
+o,indexOf,(java.lang.Object;) ret int,NonNullElementWrapperList
+o,lastIndexOf,(java.lang.Object;) ret int,NonNullElementWrapperList
+a,toArray,(T[];) ret T[],NonNullElementWrapperList
+o,equals,(java.lang.Object;) ret boolean,NonNullElementWrapperList
+style,getUSDateFormat,(int;) ret java.text.DateFormat,PreJava9DateFormatProvider
+dateStyle,getUSDateTimeFormat,(int;int;) ret java.text.DateFormat,PreJava9DateFormatProvider
+timeStyle,getUSDateTimeFormat,(int;int;) ret java.text.DateFormat,PreJava9DateFormatProvider
+style,getDateFormatPattern,(int;) ret java.lang.String,PreJava9DateFormatProvider
+dateStyle,getDatePartOfDateTimePattern,(int;) ret java.lang.String,PreJava9DateFormatProvider
+timeStyle,getTimePartOfDateTimePattern,(int;) ret java.lang.String,PreJava9DateFormatProvider
+type,isPrimitive,(java.lang.reflect.Type;) ret boolean,Primitives
+type,isWrapperType,(java.lang.reflect.Type;) ret boolean,Primitives
+type,wrap,(java.lang.Class;) ret java.lang.Class,Primitives
+type,unwrap,(java.lang.Class;) ret java.lang.Class,Primitives
+object,makeAccessible,(java.lang.reflect.AccessibleObject;) ret void,ReflectionHelper
+object,getAccessibleObjectDescription,(java.lang.reflect.AccessibleObject;boolean;) ret java.lang.String,ReflectionHelper
+uppercaseFirstLetter,getAccessibleObjectDescription,(java.lang.reflect.AccessibleObject;boolean;) ret java.lang.String,ReflectionHelper
+field,fieldToString,(java.lang.reflect.Field;) ret java.lang.String,ReflectionHelper
+constructor,constructorToString,(java.lang.reflect.Constructor;) ret java.lang.String,ReflectionHelper
+executable,appendExecutableParameters,(java.lang.reflect.AccessibleObject;java.lang.StringBuilder;) ret void,ReflectionHelper
+stringBuilder,appendExecutableParameters,(java.lang.reflect.AccessibleObject;java.lang.StringBuilder;) ret void,ReflectionHelper
+constructor,tryMakeAccessible,(java.lang.reflect.Constructor;) ret java.lang.String,ReflectionHelper
+raw,isRecord,(java.lang.Class;) ret boolean,ReflectionHelper
+raw,getRecordComponentNames,(java.lang.Class;) ret java.lang.String[],ReflectionHelper
+raw,getAccessor,(java.lang.Class;java.lang.reflect.Field;) ret java.lang.reflect.Method,ReflectionHelper
+field,getAccessor,(java.lang.Class;java.lang.reflect.Field;) ret java.lang.reflect.Method,ReflectionHelper
+raw,getCanonicalRecordConstructor,(java.lang.Class;) ret java.lang.reflect.Constructor,ReflectionHelper
+exception,createExceptionForUnexpectedIllegalAccess,(java.lang.IllegalAccessException;) ret java.lang.RuntimeException,ReflectionHelper
+exception,createExceptionForRecordReflectionException,(java.lang.ReflectiveOperationException;) ret java.lang.RuntimeException,ReflectionHelper
+c,isJavaType,(java.lang.Class;) ret boolean,ReflectionAccessFilterHelper
+className,isJavaType,(java.lang.String;) ret boolean,ReflectionAccessFilterHelper
+c,isAndroidType,(java.lang.Class;) ret boolean,ReflectionAccessFilterHelper
+className,isAndroidType,(java.lang.String;) ret boolean,ReflectionAccessFilterHelper
+c,isAnyPlatformType,(java.lang.Class;) ret boolean,ReflectionAccessFilterHelper
+reflectionFilters,getFilterResult,(java.util.List;java.lang.Class;) ret com.google.gson.ReflectionAccessFilter.FilterResult,ReflectionAccessFilterHelper
+c,getFilterResult,(java.util.List;java.lang.Class;) ret com.google.gson.ReflectionAccessFilter.FilterResult,ReflectionAccessFilterHelper
+accessibleObject,canAccess,(java.lang.reflect.AccessibleObject;java.lang.Object;) ret boolean,ReflectionAccessFilterHelper
+object,canAccess,(java.lang.reflect.AccessibleObject;java.lang.Object;) ret boolean,ReflectionAccessFilterHelper
+in,read,(com.google.gson.stream.JsonReader;) ret java.sql.Date,SqlDateTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.sql.Date;) ret void,SqlDateTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.sql.Date;) ret void,SqlDateTypeAdapter
+dateTypeAdapter,<init>$1,(com.google.gson.TypeAdapter;),SqlTimestampTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret java.sql.Timestamp,SqlTimestampTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.sql.Timestamp;) ret void,SqlTimestampTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.sql.Timestamp;) ret void,SqlTimestampTypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret java.sql.Time,SqlTimeTypeAdapter
+out,write,(com.google.gson.stream.JsonWriter;java.sql.Time;) ret void,SqlTimeTypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;java.sql.Time;) ret void,SqlTimeTypeAdapter
+reader,parse,(com.google.gson.stream.JsonReader;) ret com.google.gson.JsonElement,Streams
+element,write,(com.google.gson.JsonElement;com.google.gson.stream.JsonWriter;) ret void,Streams
+writer,write,(com.google.gson.JsonElement;com.google.gson.stream.JsonWriter;) ret void,Streams
+appendable,writerForAppendable,(java.lang.Appendable;) ret java.io.Writer,Streams
+c,newInstance,(java.lang.Class;) ret T,UnsafeAllocator
+c,assertInstantiable,(java.lang.Class;) ret void,UnsafeAllocator
+capacity,<init>$2,(int;),JsonArray
+bool,add,(java.lang.Boolean;) ret void,JsonArray
+character,add,(java.lang.Character;) ret void,JsonArray
+number,add,(java.lang.Number;) ret void,JsonArray
+string,add,(java.lang.String;) ret void,JsonArray
+element,add,(com.google.gson.JsonElement;) ret void,JsonArray
+array,addAll,(com.google.gson.JsonArray;) ret void,JsonArray
+index,set,(int;com.google.gson.JsonElement;) ret com.google.gson.JsonElement,JsonArray
+element,set,(int;com.google.gson.JsonElement;) ret com.google.gson.JsonElement,JsonArray
+element,remove,(com.google.gson.JsonElement;) ret boolean,JsonArray
+index,remove,(int;) ret com.google.gson.JsonElement,JsonArray
+element,contains,(com.google.gson.JsonElement;) ret boolean,JsonArray
+i,get,(int;) ret com.google.gson.JsonElement,JsonArray
+o,equals,(java.lang.Object;) ret boolean,JsonArray
+json,deserialize,(com.google.gson.JsonElement;java.lang.reflect.Type;) ret T,JsonDeserializationContext
+typeOfT,deserialize,(com.google.gson.JsonElement;java.lang.reflect.Type;) ret T,JsonDeserializationContext
+json,deserialize,(com.google.gson.JsonElement;java.lang.reflect.Type;com.google.gson.JsonDeserializationContext;) ret T,JsonDeserializer
+typeOfT,deserialize,(com.google.gson.JsonElement;java.lang.reflect.Type;com.google.gson.JsonDeserializationContext;) ret T,JsonDeserializer
+context,deserialize,(com.google.gson.JsonElement;java.lang.reflect.Type;com.google.gson.JsonDeserializationContext;) ret T,JsonDeserializer
+msg,<init>$1,(java.lang.String;),JsonIOException
+msg,<init>$2,(java.lang.String;java.lang.Throwable;),JsonIOException
+cause,<init>$2,(java.lang.String;java.lang.Throwable;),JsonIOException
+cause,<init>$3,(java.lang.Throwable;),JsonIOException
+other,equals,(java.lang.Object;) ret boolean,JsonNull
+property,add,(java.lang.String;com.google.gson.JsonElement;) ret void,JsonObject
+value,add,(java.lang.String;com.google.gson.JsonElement;) ret void,JsonObject
+property,remove,(java.lang.String;) ret com.google.gson.JsonElement,JsonObject
+property,addProperty,(java.lang.String;java.lang.String;) ret void,JsonObject
+value,addProperty,(java.lang.String;java.lang.String;) ret void,JsonObject
+property,addProperty,(java.lang.String;java.lang.Number;) ret void,JsonObject
+value,addProperty,(java.lang.String;java.lang.Number;) ret void,JsonObject
+property,addProperty,(java.lang.String;java.lang.Boolean;) ret void,JsonObject
+value,addProperty,(java.lang.String;java.lang.Boolean;) ret void,JsonObject
+property,addProperty,(java.lang.String;java.lang.Character;) ret void,JsonObject
+value,addProperty,(java.lang.String;java.lang.Character;) ret void,JsonObject
+memberName,has,(java.lang.String;) ret boolean,JsonObject
+memberName,get,(java.lang.String;) ret com.google.gson.JsonElement,JsonObject
+memberName,getAsJsonPrimitive,(java.lang.String;) ret JsonPrimitive,JsonObject
+memberName,getAsJsonArray,(java.lang.String;) ret com.google.gson.JsonArray,JsonObject
+memberName,getAsJsonObject,(java.lang.String;) ret com.google.gson.JsonObject,JsonObject
+o,equals,(java.lang.Object;) ret boolean,JsonObject
+msg,<init>$1,(java.lang.String;),JsonParseException
+msg,<init>$2,(java.lang.String;java.lang.Throwable;),JsonParseException
+cause,<init>$2,(java.lang.String;java.lang.Throwable;),JsonParseException
+cause,<init>$3,(java.lang.Throwable;),JsonParseException
+json,parseString,(java.lang.String;) ret com.google.gson.JsonElement,JsonParser
+reader,parseReader,(java.io.Reader;) ret com.google.gson.JsonElement,JsonParser
+reader,parseReader,(com.google.gson.stream.JsonReader;) ret com.google.gson.JsonElement,JsonParser
+json,parse,(java.lang.String;) ret com.google.gson.JsonElement,JsonParser
+json,parse,(java.io.Reader;) ret com.google.gson.JsonElement,JsonParser
+json,parse,(com.google.gson.stream.JsonReader;) ret com.google.gson.JsonElement,JsonParser
+bool,<init>$1,(java.lang.Boolean;),JsonPrimitive
+number,<init>$2,(java.lang.Number;),JsonPrimitive
+string,<init>$3,(java.lang.String;),JsonPrimitive
+c,<init>$4,(java.lang.Character;),JsonPrimitive
+obj,equals,(java.lang.Object;) ret boolean,JsonPrimitive
+primitive,isIntegral,(com.google.gson.JsonPrimitive;) ret boolean,JsonPrimitive
+src,serialize,(java.lang.Object;) ret com.google.gson.JsonElement,JsonSerializationContext
+src,serialize,(java.lang.Object;java.lang.reflect.Type;) ret com.google.gson.JsonElement,JsonSerializationContext
+typeOfSrc,serialize,(java.lang.Object;java.lang.reflect.Type;) ret com.google.gson.JsonElement,JsonSerializationContext
+src,serialize,(T;java.lang.reflect.Type;com.google.gson.JsonSerializationContext;) ret com.google.gson.JsonElement,JsonSerializer
+typeOfSrc,serialize,(T;java.lang.reflect.Type;com.google.gson.JsonSerializationContext;) ret com.google.gson.JsonElement,JsonSerializer
+context,serialize,(T;java.lang.reflect.Type;com.google.gson.JsonSerializationContext;) ret com.google.gson.JsonElement,JsonSerializer
+json,<init>$1,(java.lang.String;),JsonStreamParser
+reader,<init>$2,(java.io.Reader;),JsonStreamParser
+msg,<init>$1,(java.lang.String;),JsonSyntaxException
+msg,<init>$2,(java.lang.String;java.lang.Throwable;),JsonSyntaxException
+cause,<init>$2,(java.lang.String;java.lang.Throwable;),JsonSyntaxException
+cause,<init>$3,(java.lang.Throwable;),JsonSyntaxException
+value,serialize,(java.lang.Long;) ret com.google.gson.JsonElement,LongSerializationPolicy
+type,<init>$2,(java.lang.reflect.Type;),TypeToken
+cls,isAssignableFrom,(java.lang.Class;) ret boolean,TypeToken
+from,isAssignableFrom,(java.lang.reflect.Type;) ret boolean,TypeToken
+token,isAssignableFrom,(com.google.gson.reflect.TypeToken;) ret boolean,TypeToken
+from,isAssignableFrom,(java.lang.reflect.Type;java.lang.reflect.GenericArrayType;) ret boolean,TypeToken
+to,isAssignableFrom,(java.lang.reflect.Type;java.lang.reflect.GenericArrayType;) ret boolean,TypeToken
+from,isAssignableFrom,(java.lang.reflect.Type;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+to,isAssignableFrom,(java.lang.reflect.Type;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+typeVarMap,isAssignableFrom,(java.lang.reflect.Type;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+from,typeEquals,(java.lang.reflect.ParameterizedType;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+to,typeEquals,(java.lang.reflect.ParameterizedType;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+typeVarMap,typeEquals,(java.lang.reflect.ParameterizedType;java.lang.reflect.ParameterizedType;java.util.Map;) ret boolean,TypeToken
+token,buildUnexpectedTypeError,(java.lang.reflect.Type;java.lang.Class;) ret java.lang.AssertionError,TypeToken
+expected,buildUnexpectedTypeError,(java.lang.reflect.Type;java.lang.Class;) ret java.lang.AssertionError,TypeToken
+from,matches,(java.lang.reflect.Type;java.lang.reflect.Type;java.util.Map;) ret boolean,TypeToken
+to,matches,(java.lang.reflect.Type;java.lang.reflect.Type;java.util.Map;) ret boolean,TypeToken
+typeMap,matches,(java.lang.reflect.Type;java.lang.reflect.Type;java.util.Map;) ret boolean,TypeToken
+o,equals,(java.lang.Object;) ret boolean,TypeToken
+type,get,(java.lang.reflect.Type;) ret com.google.gson.reflect.TypeToken,TypeToken
+type,get,(java.lang.Class;) ret com.google.gson.reflect.TypeToken,TypeToken
+rawType,getParameterized,(java.lang.reflect.Type;java.lang.reflect.Type;) ret com.google.gson.reflect.TypeToken,TypeToken
+typeArguments,getParameterized,(java.lang.reflect.Type;java.lang.reflect.Type;) ret com.google.gson.reflect.TypeToken,TypeToken
+componentType,getArray,(java.lang.reflect.Type;) ret com.google.gson.reflect.TypeToken,TypeToken
+rawClass,check,(java.lang.Class;) ret com.google.gson.ReflectionAccessFilter.FilterResult,ReflectionAccessFilter
+in,<init>$1,(java.io.Reader;),JsonReader
+lenient,setLenient,(boolean;) ret void,JsonReader
+c,isLiteral,(char;) ret boolean,JsonReader
+quote,nextQuotedValue,(char;) ret java.lang.String,JsonReader
+quote,skipQuotedValue,(char;) ret void,JsonReader
+newTop,push,(int;) ret void,JsonReader
+minimum,fillBuffer,(int;) ret boolean,JsonReader
+throwOnEof,nextNonWhitespace,(boolean;) ret int,JsonReader
+toFind,skipTo,(java.lang.String;) ret boolean,JsonReader
+usePreviousPath,getPath,(boolean;) ret java.lang.String,JsonReader
+message,syntaxError,(java.lang.String;) ret java.io.IOException,JsonReader
+out,<init>$1,(java.io.Writer;),JsonWriter
+indent,setIndent,(java.lang.String;) ret void,JsonWriter
+lenient,setLenient,(boolean;) ret void,JsonWriter
+htmlSafe,setHtmlSafe,(boolean;) ret void,JsonWriter
+serializeNulls,setSerializeNulls,(boolean;) ret void,JsonWriter
+empty,open,(int;char;) ret com.google.gson.stream.JsonWriter,JsonWriter
+openBracket,open,(int;char;) ret com.google.gson.stream.JsonWriter,JsonWriter
+empty,close,(int;int;char;) ret com.google.gson.stream.JsonWriter,JsonWriter
+nonempty,close,(int;int;char;) ret com.google.gson.stream.JsonWriter,JsonWriter
+closeBracket,close,(int;int;char;) ret com.google.gson.stream.JsonWriter,JsonWriter
+newTop,push,(int;) ret void,JsonWriter
+topOfStack,replaceTop,(int;) ret void,JsonWriter
+name,name,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,jsonValue,(java.lang.String;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(boolean;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(java.lang.Boolean;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(float;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(double;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,value,(long;) ret com.google.gson.stream.JsonWriter,JsonWriter
+c,isTrustedNumberType,(java.lang.Class;) ret boolean,JsonWriter
+value,value,(java.lang.Number;) ret com.google.gson.stream.JsonWriter,JsonWriter
+value,string,(java.lang.String;) ret void,JsonWriter
+msg,<init>$1,(java.lang.String;),MalformedJsonException
+msg,<init>$2,(java.lang.String;java.lang.Throwable;),MalformedJsonException
+throwable,<init>$2,(java.lang.String;java.lang.Throwable;),MalformedJsonException
+throwable,<init>$3,(java.lang.Throwable;),MalformedJsonException
+in,readNumber,(com.google.gson.stream.JsonReader;) ret java.lang.Number,ToNumberStrategy
+out,write,(com.google.gson.stream.JsonWriter;T;) ret void,TypeAdapter
+value,write,(com.google.gson.stream.JsonWriter;T;) ret void,TypeAdapter
+out,toJson,(java.io.Writer;T;) ret void,TypeAdapter
+value,toJson,(java.io.Writer;T;) ret void,TypeAdapter
+value,toJson,(T;) ret java.lang.String,TypeAdapter
+value,toJsonTree,(T;) ret com.google.gson.JsonElement,TypeAdapter
+in,read,(com.google.gson.stream.JsonReader;) ret T,TypeAdapter
+in,fromJson,(java.io.Reader;) ret T,TypeAdapter
+json,fromJson,(java.lang.String;) ret T,TypeAdapter
+jsonTree,fromJsonTree,(com.google.gson.JsonElement;) ret T,TypeAdapter
+gson,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,TypeAdapterFactory
+type,create,(com.google.gson.Gson;com.google.gson.reflect.TypeToken;) ret com.google.gson.TypeAdapter,TypeAdapterFactory
